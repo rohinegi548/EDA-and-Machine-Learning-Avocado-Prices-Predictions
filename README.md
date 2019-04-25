@@ -70,3 +70,4 @@ The unclear numerical variables terminology is explained in the next section:
   <tr><td>‘XLarge Bags’</td><td>	Total number of XLarge Bags sold</td></tr>
 </table>
 
+<h2>--><a href="https://github.com/rohinegi548/EDA-and-Machine-Learning-Avocado-Prices-Predictions/blob/master/Avocado%20Dataset%20Analysis%20and%20ML%20Predictions.ipynb">Python notebook is here</a></h2>
