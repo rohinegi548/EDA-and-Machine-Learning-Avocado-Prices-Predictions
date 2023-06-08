@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: running on ubuntu server
-        run: echo 'you are a good guy ! |
+        run: echo 'you are a good guy !' |
             pwd |
             who am i |
             ls -ld
