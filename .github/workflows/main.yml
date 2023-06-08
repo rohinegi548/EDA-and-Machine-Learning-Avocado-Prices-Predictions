@@ -1,13 +1,25 @@
 name: my-first-workflow
 on: push
 jobs:
-  job2:
-    name: second-job
+  ubuntu:
     runs-on: ubuntu-latest
-    steps: 
-      - name: running on ubuntu server
-        run: echo 'you are a good guy !' |
-            pwd |
-            who am i |
-            ls -ld
+    steps:
+     - name: printing date from ubuntu
+     - run: date
+  macos:
+    runs-on: macos-latest
+    steps:
+     - name: printing date from macos
+     - run: date
+  windows:
+    runs-on: windows-latest
+    steps:
+     - name: printing date from windows
+     - run: date
+  depends:
+   runs-on: macos-latest
+   needs: [ubuntu, windows]
+   steps:
+    - name: printing date from macos
+    - run: date
       
