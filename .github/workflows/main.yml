@@ -5,21 +5,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: printing date from ubuntu
-     - run: date
+       run: date
   macos:
     runs-on: macos-latest
     steps:
      - name: printing date from macos
-     - run: date
+       run: date
   windows:
     runs-on: windows-latest
     steps:
      - name: printing date from windows
-     - run: date
+       run: date
   depends:
    runs-on: macos-latest
    needs: [ubuntu, windows]
    steps:
     - name: printing date from macos
-    - run: date
+      run: date
       
