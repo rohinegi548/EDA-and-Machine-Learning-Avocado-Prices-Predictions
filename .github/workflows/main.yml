@@ -1,9 +1,6 @@
 name: my-first-workflow
 on: push
 jobs:
-  job1:
-    name: first-job
-    uses: actions/checkout@v3 
   job2:
     name: second-job
     runs-on: ubuntu-latest
