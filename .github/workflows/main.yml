@@ -7,7 +7,7 @@ jobs:
     steps: 
       - name: running on ubuntu server
         run: echo 'you are a good guy ! |
-            pwd
-            who am i
+            pwd |
+            who am i |
             ls -ld
       
